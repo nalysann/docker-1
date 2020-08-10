@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+eval $(docker-machine env Char)
+
+# see `docker-machine env Char` for reference

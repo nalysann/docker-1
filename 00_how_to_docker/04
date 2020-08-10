@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+docker pull hello-world
+
+# alternatively we can use `docker image pull hello-world`
