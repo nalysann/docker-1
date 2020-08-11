@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+docker service logs -f $(docker service ps -q engineering-bay | head -1)

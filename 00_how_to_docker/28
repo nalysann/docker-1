@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+docker service create --replicas 2 \
+                      -e OC_USERNAME=pepega \
+                      -e OC_PASSWD=pepega \
+                      --name marines \
+                      --network overmind \
+                      42school/marine-squad

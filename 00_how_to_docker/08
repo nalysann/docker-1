@@ -1,5 +1,3 @@
 #!/bin/zsh
 
-docker run -t --rm alpine
-
-# instead of -t we can use --tty or -it
+docker run -t -i --rm alpine
